@@ -10,7 +10,7 @@ $data = json_decode($json);
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Gatewayku - Index</title>
+  <title><?php echo $nama ?> - Index</title>
   <meta content="Gatewayku | Unofficial Whatsapp Gateway" name="description">
   <meta content="wagw, gatewayku, whatsapp gateway" name="keywords">
   <link href="assets/images/icon.png" rel="icon">
@@ -28,7 +28,7 @@ $data = json_decode($json);
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>Gatewayku</span>
+        <span><?php echo $nama ?></span>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
@@ -235,21 +235,21 @@ $data = json_decode($json);
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
-                  <p>Jalan Raya Kebon Agung,<br>Minggir, Sleman, ID 55561</p>
+                  <p><?php echo $alamat; ?></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+62 xxx xxx xxx<br>+62 xxx xxx xxx</p>
+                  <p><?php echo $phone; ?></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@gatewayku.id<br>contact@gatewayku.id</p>
+                  <p><?php echo $email ?></p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -296,7 +296,7 @@ $data = json_decode($json);
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>Gatewayku</span>
+              <span>WA SERVER</span>
             </a>
             <p>Unofficial Whatsapp API.</p>
             <div class="social-links mt-3">
@@ -329,7 +329,7 @@ $data = json_decode($json);
     </div>
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Gatewayku</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>WA SERVER</span></strong>. All Rights Reserved
       </div>
       <div class="credits">Designed by <a href="https://gatewayku.id/">gatewayku</a></div>
     </div>
