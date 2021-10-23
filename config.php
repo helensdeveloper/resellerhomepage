@@ -10,4 +10,5 @@ $nama = "";
 $alamat = "";
 $email = "";
 $phone = "";
+$jualdollar = "";
 ?>

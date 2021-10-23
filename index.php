@@ -204,6 +204,7 @@ $data = json_decode($json);
           <div class="col-lg-12 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="box">
               <div class="price"><sup>Rp</sup><?=number_format($data->jual)?><span> / Bulan</span></div>
+              <div class="price"><sup>$</sup><?=number_format($jualdollar)?><span> / Bulan</span></div>
               <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
               <ul>
                 <li>Send & Receive Message</li>
