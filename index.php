@@ -214,12 +214,12 @@ $data = json_decode($json);
                 <li>Read Group</li>
                 <li>Developer API</li>
               </ul>
-              <a href="https://wa.me/<?php echo $phone?>" class="btn-buy">Langganan</a>
+              <a href="https://wa.me/<?php echo $phone?>" class="btn-buy">Subscribe</a>
             </div>
           </div>
         </div><br>
-        <center><h3>Ingin Menjadi Reseller?</h3></center>
-        <center><a href="https://wa.me/<?php echo $phone?>" class="btn-buy">Hubungi Kami</a></center>
+        <center><h3>Are You Want Join Reseller?</h3></center>
+        <center><a href="https://wa.me/<?php echo $phone?>" class="btn-buy">Contact Us</a></center>
       </div>
     </section>
     <section id="contact" class="contact">
