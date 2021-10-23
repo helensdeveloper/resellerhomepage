@@ -19,7 +19,7 @@
             <div class="mb-10 text-center">
               <h1 class="text-dark mb-3">Create an Account</h1>
               <div class="text-gray-400 fw-bold fs-4">Already have an account?
-                <a href="../../demo13/dist/authentication/flows/dark/sign-in.html" class="link-primary fw-bolder">Sign in here</a>
+                <a href="https://panel.wa-server.com" class="link-primary fw-bolder">Sign in here</a>
               </div>
             </div>
             <div class="row fv-row mb-7">
@@ -119,7 +119,7 @@
       echo "<script type='text/javascript'>
       Swal.fire({
         type: 'success',
-        title: 'Request Success',
+        title: 'Server Response',
         text: '$message'
       })
       </script>";
@@ -127,7 +127,7 @@
       echo "<script type='text/javascript'>
       Swal.fire({
         type: 'error',
-        title: 'Request Failed',
+        title: 'Response Failed',
         text: 'Confirm password does not match'
       })
       </script>";
